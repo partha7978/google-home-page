@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: auto;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+header {
+    display: flex;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+}
+span {
+    padding: 10px;
+    font-size: 13px;
+   
+}
+span:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+
+.profile:hover{
+    box-shadow: 1px 1px 5px rgb(99, 93, 93);
+}
+/* middle section */
+ul{
+    display: flex;
+}
+li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 5em;
+}
+
+
+/* google text color starts here */
+.first {
+    color: rgb(39, 105, 247);
+}
+.second {
+    color: rgb(248, 12, 12);
+}
+.third {
+    color: yellow;
+}
+.fifth {
+    color: rgb(18, 175, 13);
+}
+
+.buffer {
+    height: 17vh;
+}
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.form {
+    text-align: center;
+}
+
+.input {
+    width: 600px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 0.2px solid black;
+    margin-top: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: rgb(224, 224, 224);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 16px;
+    text-align: center;
+    border: 0.3px solid rgb(224, 224, 224);
+    justify-content: center;
+    margin: 28px 10px;
+}
+.button:hover{
+    border: 0.2px solid rgb(134, 134, 134);
+}
+
+
+/* footer */
