@@ -192,6 +192,39 @@ ul{
         justify-content: center;
         align-items:center;
         margin-left: 20px;
+        margin-right: 8px;
+    }
+    .list-second {
+        list-style: none;
+        text-decoration: none;
+        margin: 3px;
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .input {
+        width: 350px;
+        padding: 6px 9px;
+        border-radius: 40px;
+        border: 0.2px solid rgb(94, 94, 94);
+        margin-top: 10px;
+    }
+    .list {
+        list-style: none;
+        font-weight: 400;
+        font-size: 2.9em;
+    }  
+    .form {
+        text-align: center;
+        margin-left: 18px;
+    }
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-left: 14px;
+        margin-right: 8px;
     }
     .list-second {
         list-style: none;
