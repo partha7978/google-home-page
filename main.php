@@ -1,6 +1,7 @@
 <?php
 
 $userInput=$_GET['userInput'];
-echo $userInput;
+
+header("Location: https://www.google.com/search?q="."$userInput");
 
 ?>
