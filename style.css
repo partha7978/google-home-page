@@ -78,6 +78,11 @@ ul{
     border: 0.2px solid rgb(94, 94, 94);
     margin-top: 10px;
 }
+
+input.input{
+    outline: none;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
