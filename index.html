@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='static/img/gLogo.png' />
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -31,16 +32,17 @@
                 <li class="second list">e</li>
             </ul>
         </div>
-        <form action="main.php" method="GET">
-            <div class="form">
-                <form action="main.php" method="GET">
-                    <input type="text" class="input" name="userInput">
-            </div>
-            <div class="buttons">
-                <input type="submit" value="Google Search" class="button">
-                <input type="submit" value="I'm Feeling Lucky" class="button">
-            </div>
-        </form>
+
+        <div class="form">
+            <form action="main.php" method="GET">
+                <input type="text" class="input" name="userInput" id="userInput">
+            </form>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Google Search" class="button" onclick="redirectToGoogle()">
+            <input type="submit" value="I'm Feeling Lucky" class="button">
+        </div>
+
         <div class="text-after-button">
             <span><a class="text" href="https://www.youtube.com/YouTubeIndia">Get COVID-19 facts from top health
                     officials</a></span>
